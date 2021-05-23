@@ -1,0 +1,232 @@
+/* ------------------- ANIMATION ---------------- */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes right-in {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes left-in {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes up-in {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes down-in {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes skills-in {
+  0% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes portfolio-in {
+  0% {
+    transform: translateX(500px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes scale-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes skills-in-out {
+  0% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  40% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  60% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  90% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+}
+.home-text h1,
+.home-text h2,
+.home-text .btn,
+.home-img {
+  opacity: 0;
+}
+/* ------------ HOME SECTION -------------- */
+.home-text h1 {
+  animation: left-in 0.5s ease-in forwards 0.5s;
+}
+.home-text h2 {
+  animation: left-in 0.5s ease-in forwards 1s;
+}
+.home-text .btn {
+  animation: left-in 0.5s ease-in forwards 1.5s;
+}
+.home-img {
+  animation: right-in 0.5s ease-in forwards 2s;
+}
+
+/* ------------ ABOUT SECTION -------------- */
+.toast,
+.profil,
+.about-content h1,
+.about-content .about-text,
+.about-content h2,
+.skills .skill-item-btn {
+  opacity: 0;
+}
+
+.about-content .profil {
+  animation: fade-in 1s ease-in forwards 0.8s;
+}
+.about-content h1,
+.about-content .about-text {
+  animation: fade-in 1s ease-in forwards 1s;
+}
+
+.about-content h2,
+.skills .skill-item-btn {
+  animation: skills-in 0.5s ease-in forwards 1.5s;
+}
+.skills .skill-item-btn:nth-child(2) {
+  animation-delay: 1.6s;
+}
+.skills .skill-item-btn:nth-child(3) {
+  animation-delay: 1.7s;
+}
+.skills .skill-item-btn:nth-child(4) {
+  animation-delay: 1.8s;
+}
+.skills .skill-item-btn:nth-child(5) {
+  animation-delay: 1.9s;
+}
+.skills .skill-item-btn:nth-child(6) {
+  animation-delay: 2s;
+}
+.skills .skill-item-btn:nth-child(7) {
+  animation-delay: 2.1s;
+}
+.toast {
+  animation: skills-in-out 5s ease-in 3s;
+}
+/* ------------ PORTFOLIO SECTION -------------- */
+.portfolio-section .section-title,
+.portfolio-filter .portfolio-filter-btn,
+.portfolio-items .portfolio-item {
+  opacity: 0;
+}
+.portfolio-section .section-title {
+  animation: down-in 0.5s ease-in forwards 1.5s;
+}
+.portfolio-filter .portfolio-filter-btn {
+  animation: down-in 0.5s ease-in forwards 1s;
+}
+.portfolio-items .portfolio-item {
+  animation: fade-in 0.5s ease-in forwards 0.8s;
+}
+
+/* ------------ CONTACT SECTION -------------- */
+.contact-section .section-title,
+.contact-content .contact-text,
+.contact-info-item .email,
+.contact-info-item .social-links,
+.contact-info-item .social-links .fab,
+.contact-content .btn,
+.contact-content .contact-footer {
+  opacity: 0;
+}
+.contact-section .section-title {
+  animation: fade-in 1s ease-in forwards 0.5s;
+}
+.contact-content .contact-text {
+  animation: fade-in 1s ease-in forwards 1s;
+}
+.contact-info-item .email {
+  animation: fade-in 1s ease-in forwards 1.3s;
+}
+.contact-info-item .social-links {
+  animation: skills-in 0.5s ease-in forwards 1.8s;
+}
+.contact-info-item .social-links .fab {
+  animation: skills-in 0.5s ease-in forwards 1.8s;
+}
+.contact-info-item .social-links .fab:nth-child(2) {
+  animation-delay: 2s;
+}
+.contact-info-item .social-links .fab:nth-child(3) {
+  animation-delay: 2.1s;
+}
+.contact-info-item .social-links .fab:nth-child(4) {
+  animation-delay: 2.2s;
+}
+.contact-info-item .social-links .fab:nth-child(5) {
+  animation-delay: 2.3s;
+}
+.contact-info-item .social-links .fab:nth-child(6) {
+  animation-delay: 2.4s;
+}
+
+.contact-content .btn {
+  animation: scale-in 0.5s ease-in forwards 3.5s;
+}
+.contact-content .contact-footer {
+  animation: fade-in 0.5s ease-in forwards 3s;
+}
