@@ -1360,7 +1360,7 @@ Contact Form
     font-size: 18px;
   }
   .toast {
-    bottom: 80px;
+    bottom: 10px;
     right: 10px;
   }
 }
