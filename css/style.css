@@ -547,17 +547,21 @@ Header Section
   right: 15px;
   width: 30px;
   height: 30px;
-  color: var(--white);
-  border: 2px solid var(--white);
+  color: var(--white-light);
+  border: 2px solid var(--white-light);
   border-radius: 50%;
   text-align: center;
   line-height: 28px;
   cursor: pointer;
-  transition: all 1.1s ease;
-  animation: muter 8s linear infinite;
+  transition: all 0.3s ease;
+  /* animation: muter 8s linear infinite; */
+}
+.day-mode:hover {
+  color: var(--white);
+  border-color: var(--white);
 }
 
-@keyframes muter {
+/* @keyframes muter {
   0% {
     transform: rotate(25deg);
   }
@@ -570,7 +574,7 @@ Header Section
   100% {
     transform: rotate(25deg);
   }
-}
+} */
 
 /* ---------------- 
 Home Section 
