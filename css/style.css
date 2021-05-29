@@ -647,10 +647,11 @@ About Section
   font-size: 28px;
   margin: 0 0 8px;
 }
-.about-content p span {
+
+/* .about-content p span {
   font-weight: 600;
   text-transform: capitalize;
-}
+} */
 
 .about-content p a {
   color: var(--main-color);
