@@ -224,7 +224,6 @@
 .contact-info-item .social-links .fab:nth-child(6) {
   animation-delay: 1.1s;
 }
-
 .contact-info-item .social-links .fas {
   animation: skills-in 0.5s ease-in forwards 1.2s;
 }
